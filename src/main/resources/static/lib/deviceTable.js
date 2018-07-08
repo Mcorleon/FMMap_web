@@ -13,7 +13,7 @@ $("#device_table").bootstrapTable({ // 对应table标签的id
     // showFooter:true,//列尾
     showColumns:true,
     // smartDisplay:true,//设置为 true可以在分页和卡片视图快速切换
-    showToggle:true,//是否显示 切换试图（table/card）按钮
+    // showToggle:true,//是否显示 切换试图（table/card）按钮
     showPaginationSwitch:true,//数据条选择框
     searchAlign:'left',
     buttonsAlign:'left',

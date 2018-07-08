@@ -43,7 +43,9 @@ public class DemoApplicationTests {
 
 	@Test
 	public void txt() {
-		datasourceService.InsertDataFromTxt("ss","F:\\材料\\实验室\\Tablet.txt");
+		System.out.println("X: "+"11618700.07544736");
+		System.out.println("Y: "+"6494584.042893389");
+		//datasourceService.InsertDataFromTxt("ss","F:\\材料\\实验室\\Tablet.txt");
 	}
 
 }

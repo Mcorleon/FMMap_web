@@ -10,7 +10,7 @@
     <script src="http://cdn.bootcss.com/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js"></script>
     <script>
         $(function () {
-            $("#login_form").bootstrapValidator({
+                $("#login_form").bootstrapValidator({
                 live: 'disabled',//验证时机，enabled是内容有变化就验证（默认），disabled和submitted是提交再验证
                 excluded: [':disabled', ':hidden', ':not(:visible)'],//排除无需验证的控件，比如被禁用的或者被隐藏的
                 feedbackIcons: {//根据验证结果显示的各种图标
@@ -88,7 +88,6 @@
             <input type="password" id="psw" name="password" class="form-control" placeholder="密码"/>
         </div>
     </div>
-    <!--<span id="tip"  style="margin-top: 10%;margin-left:27%;color: red"></span>-->
     <div class="form-group" style="margin-top:10%;">
         <div class="col-sm-offset-4">
             <button id="submit_btn" type="submit"  class="btn btn-success col-sm-5">登　录</button>
